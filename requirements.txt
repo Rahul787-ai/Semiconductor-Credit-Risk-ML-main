@@ -1,0 +1,9 @@
+streamlit>=1.42
+pandas
+numpy
+scipy
+scikit-learn
+plotly
+openpyxl
+requests>=2.32
+beautifulsoup4>=4.12

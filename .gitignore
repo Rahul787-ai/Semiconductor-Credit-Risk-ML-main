@@ -1,0 +1,130 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# Environments
+# ============================================================
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# IDE
+# ============================================================
+.vscode/
+.idea/
+
+# ============================================================
+# Secrets / credentials
+# ============================================================
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+credentials.json
+secrets.json
+service_account*.json
+
+# ============================================================
+# Logs / temp
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# ============================================================
+# Streamlit
+# ============================================================
+.streamlit/secrets.toml
+
+# ============================================================
+# Large model artifacts
+# ============================================================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# ============================================================
+# Optional raw/intermediate files
+# Uncomment these if repository becomes too large
+# ============================================================
+# 01_Raw_Data/
+# 02_Processed_Data/
+# 03_Modeling/
+# 99_Audit/
+
+# ============================================================
+# OneDrive/system artifacts
+# ============================================================
+*.icloud
+
+# ========================================================
+# Security / Secret Files
+# ========================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets.toml
+.streamlit/secrets.toml
+credentials.json
+service-account*.json
+private_data/
+confidential_data/
+bank_private_data/
+*.secret
+
+# Runtime security logs
+logs/*.jsonl
+logs/*.log
+
+
+config/authorized_users.csv
+
+
+# ============================================================
+# Local deployment / temporary working artifacts
+# ============================================================
+deployment_phase12j/
+app/community_main_pre_phase12j_backup.py
+Untitled.ipynb
+
+# Local dashboard / production backups
+99_Audit/Production_Dashboard_Backups/
+99_Audit/UI_Backups/
+
+# Local generated deployment validation artifacts
+deployment/docker_validation/
+deployment/gcp/
+
+# Notebook scratch files
+*.ipynb~

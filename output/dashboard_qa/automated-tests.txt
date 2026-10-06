@@ -1,0 +1,20 @@
+test_all_pages_and_filter_consistency (test_intelligence.AppWorkflows.test_all_pages_and_filter_consistency) ... 2026-10-06 10:49:13.557 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_selection_comparison_and_scenarios (test_intelligence.AppWorkflows.test_selection_comparison_and_scenarios) ... 2026-10-06 10:49:16.581 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_allocation_all_policies (test_intelligence.DataAndAnalytics.test_allocation_all_policies) ... ok
+test_archived_mc_summary (test_intelligence.DataAndAnalytics.test_archived_mc_summary) ... ok
+test_authoritative_counts_and_p95 (test_intelligence.DataAndAnalytics.test_authoritative_counts_and_p95) ... ok
+test_duplicate_and_missing_identifiers (test_intelligence.DataAndAnalytics.test_duplicate_and_missing_identifiers) ... ok
+test_exports_and_scenario_storage (test_intelligence.DataAndAnalytics.test_exports_and_scenario_storage) ... ok
+test_filters (test_intelligence.DataAndAnalytics.test_filters) ... ok
+test_fingerprint_changes (test_intelligence.DataAndAnalytics.test_fingerprint_changes) ... ok
+test_missing_files (test_intelligence.DataAndAnalytics.test_missing_files) ... ok
+test_no_percentile_proxy (test_intelligence.DataAndAnalytics.test_no_percentile_proxy) ... ok
+test_schema_numeric_and_missing_matches (test_intelligence.DataAndAnalytics.test_schema_numeric_and_missing_matches) ... ok
+test_stress_reproduction_changes_and_bounds (test_intelligence.DataAndAnalytics.test_stress_reproduction_changes_and_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 6.432s
+
+OK
