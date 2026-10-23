@@ -1,11 +1,11 @@
 {
   "phase": "13I",
   "audit_version": "SCI_PHASE13_LINEAGE_AUDIT_V1",
-  "generated_at": "2026-10-22T07:50:05+00:00",
+  "generated_at": "2026-10-23T07:49:23+00:00",
   "status": "PASS_WITH_WARNINGS",
   "execution": {
-    "git_sha": "914d8e3dbff3552209212e9668ff6ec5a5a06a65",
-    "github_run_id": "39743200870",
+    "git_sha": "73c5487173cae8413f60b70008c6caf43ce08e0d",
+    "github_run_id": "39920281463",
     "github_run_attempt": "1",
     "github_event_name": "schedule",
     "github_ref_name": "main"
@@ -79,7 +79,7 @@
     "new_project_evaluation_register": 0
   },
   "source_monitoring": {
-    "latest_discovery_run_at": "2026-10-22T07:50:00+00:00",
+    "latest_discovery_run_at": "2026-10-23T07:49:18+00:00",
     "latest_rss_sources": 1,
     "latest_rss_items_scanned": 0,
     "latest_new_candidates": 0,
@@ -87,7 +87,7 @@
   },
   "change_tracking": {
     "tracked_artifacts": 31,
-    "new_or_modified_or_missing": 3,
+    "new_or_modified_or_missing": 6,
     "change_register": "13_Continuous_Ingestion/08_Governance/Phase_13I_Change_Register.csv",
     "artifact_hash_register": "13_Continuous_Ingestion/08_Governance/Phase_13I_Artifact_Hashes.csv"
   },
